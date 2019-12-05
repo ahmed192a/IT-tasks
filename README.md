@@ -1,2 +1,2 @@
-# IT-Task
+# ItTask
 This is our first repo
