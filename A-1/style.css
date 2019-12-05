@@ -1,0 +1,36 @@
+.bg-dark {
+    background-color: transparent !important;
+}
+
+
+#topp {
+    background-image: url(photos/parallax1.jpg);
+    background-size: cover;
+}
+
+.t-txr {
+    background-image: url(photos/parallax1.jpg);
+    background-size: cover;
+}
+
+.t-txt {
+    padding: 10% 2%;
+}
+
+.t-txt span {
+    background: black;
+    padding: 12px 24px;
+    letter-spacing: 10px;
+    font-size: 24px;
+}
+
+.starter-temp {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.nothing {
+    height: 800px;
+    width: 100%;
+    background-color: #0b7ff3;
+}
