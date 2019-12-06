@@ -1,7 +1,28 @@
-.bg-dark {
-    background-color: transparent !important;
+nav {
+    padding: 0px !important;
 }
 
+.nav-link {
+    color: #777 !important;
+}
+
+.nav-link.scrolled {
+    color: #000 !important;
+}
+
+.bg-dark {
+    background-color: transparent !important;
+    transition: 500ms ease-in-out;
+    color: #777 !important;
+
+}
+
+.bg-dark.scrolled {
+    color: #000 !important;
+    background-color: #fff !important;
+    overflow: hidden;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
 
 #topp {
     background-image: url(photos/parallax1.jpg);
