@@ -6,12 +6,18 @@
 #topp {
     background-image: url(photos/parallax1.jpg);
     background-size: cover;
+    height: 400px;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    opacity: 0.7;
 }
 
-.t-txr {
-    background-image: url(photos/parallax1.jpg);
-    background-size: cover;
-}
+
 
 .t-txt {
     padding: 10% 2%;
@@ -27,6 +33,24 @@
 .starter-temp {
     padding: 3rem 1.5rem;
     text-align: center;
+}
+
+.nav-link {
+    padding: 8px 16px;
+}
+
+
+.nav-link:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
+}
+
+.about {
+    padding: 64px 16px;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #777;
 }
 
 .nothing {
