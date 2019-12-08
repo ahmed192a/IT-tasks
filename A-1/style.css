@@ -1,127 +1,128 @@
 nav {
-    padding: 0px !important;
+  padding: 0px !important;
 }
 
 .nav-link {
-    color: #777 !important;
+  color: #777 !important;
 }
 
 .nav-link.scrolled {
-    color: #000 !important;
+  color: #000 !important;
 }
 
 .bg-dark {
-    background-color: transparent !important;
-    transition: 500ms ease-in-out;
-    color: #777 !important;
-
+  background-color: transparent !important;
+  transition: 500ms ease-in-out;
+  color: #777 !important;
 }
 
 .bg-dark.scrolled {
-    color: #000 !important;
-    background-color: #fff !important;
-    overflow: hidden;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  color: #000 !important;
+  background-color: #fff !important;
+  overflow: hidden;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 #topp {
-    background-image: url(photos/parallax1.jpg);
-    background-size: cover;
-    height: 400px;
-    /* You must set a specified height */
-    background-position: center;
-    /* Center the image */
-    background-repeat: no-repeat;
-    /* Do not repeat the image */
-    background-size: cover;
-    /* Resize the background image to cover the entire container */
-    opacity: 0.7;
+  background-image: url(photos/parallax1.jpg);
+  background-size: cover;
+  height: 400px;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  opacity: 0.7;
 }
 
-
-
 .t-txt {
-    padding: 10% 2%;
+  padding: 10% 2%;
 }
 
 .t-txt span {
-    background: black;
-    padding: 12px 24px;
-    letter-spacing: 10px;
-    font-size: 24px;
+  background: black;
+  padding: 12px 24px;
+  letter-spacing: 10px;
+  font-size: 24px;
 }
 
 .starter-temp {
-    padding: 3rem 1.5rem;
-    text-align: center;
+  padding: 3rem 1.5rem;
+  text-align: center;
 }
 
 .nav-link {
-    padding: 8px 16px;
+  padding: 8px 16px;
 }
 
-
 .nav-link:hover {
-    color: #000 !important;
-    background-color: #ccc !important;
+  color: #000 !important;
+  background-color: #ccc !important;
 }
 
 .about {
-    padding: 64px 16px;
-    max-width: 980px;
-    margin-left: auto;
-    margin-right: auto;
-    color: #777;
+  padding: 64px 16px;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #777;
 }
 
 .nothing {
-    height: 800px;
-    width: 100%;
-    background-color: #0b7ff3;
+  height: 800px;
+  width: 100%;
+  background-color: #0b7ff3;
+}
+
+.contact {
+  padding: 64px 16px;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer {
-    height: 287px;
-    padding: 64px 0px;
-    text-align: center;
-    background-color: black;
-    opacity: 0.7;
-    color: #fff;
-
+  height: 287px;
+  padding: 64px 0px;
+  text-align: center;
+  background-color: black;
+  opacity: 0.7;
+  color: #fff;
 }
 
 .footer:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .foot-a {
-    color: #000 !important;
-    background-color: #f1f1f1 !important;
-    display: inline-block;
-    padding: 8px 16px;
-    text-decoration: none;
-    cursor: pointer;
-    white-space: nowrap;
+  color: #000 !important;
+  background-color: #f1f1f1 !important;
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
 }
 
 .foot-a:hover {
-    background-color: #f1f1f1cc !important;
-    text-decoration: none;
+  background-color: #f1f1f1cc !important;
+  text-decoration: none;
 }
 
 .icons {
-    margin-top: 16px !important;
-    margin-bottom: 16px !important;
-    font-size: 24px !important;
-    display: block;
-
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+  font-size: 24px !important;
+  display: block;
 }
 
 .fab {
-    color: blanchedalmond;
-    cursor: pointer;
+  color: blanchedalmond;
+  cursor: pointer;
 }
 
 .fab:hover {
-    color: #f1f1f1cc !important;
+  color: #f1f1f1cc !important;
 }
