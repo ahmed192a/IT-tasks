@@ -76,6 +76,15 @@ nav {
   background-color: #0b7ff3;
 }
 
+.pic-contact {
+  background-image: url(photos/parallax3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  opacity: 0.75;
+}
+
 .contact {
   padding: 64px 16px;
   max-width: 980px;
