@@ -1,5 +1,101 @@
+body,
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
 nav {
   padding: 0px !important;
+}
+
+
+
+@media (max-width: 770px) {
+  .ahmed-n {
+    display: none !important;
+  }
+}
+
+@media (min-width:771px) {
+  #navbarCollapse {
+    display: none !important;
+  }
+}
+
+#navbarCollapse {
+  background: white;
+}
+
+.navbar-toggler {
+  float: right !important;
+  padding: 0px;
+  border: 0px;
+  border-radius: 0px !important;
+
+}
+
+.search {
+  color: #777;
+  padding: 8px 16px;
+}
+
+.search:hover {
+  background-color: red;
+  color: white;
+}
+
+.navbar-toggler:focus {
+  background-color: black;
+}
+
+.animate-opacity {
+  animation: opac 0.8s
+}
+
+@keyframes opac {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.animate {
+
+  animation: animate 0.4s
+}
+
+@keyframes animate {
+  from {
+    top: -300px;
+    opacity: 0
+  }
+
+  to {
+    top: 0;
+    opacity: 1
+  }
 }
 
 .nav-link {
@@ -35,23 +131,46 @@ nav {
   background-size: cover;
   /* Resize the background image to cover the entire container */
   opacity: 0.7;
+  position: relative;
+
 }
 
 .t-txt {
-  padding: 10% 2%;
+
+  position: absolute;
+  top: 40%;
+
+
+
+
 }
 
-.t-txt span {
+.m-span {
   background: black;
   padding: 12px 24px;
   letter-spacing: 10px;
   font-size: 24px;
+  animation: opac 0.8s;
 }
 
-.starter-temp {
-  padding: 3rem 1.5rem;
-  text-align: center;
+.ch-span {
+  background: black;
+  padding: 0px 20px;
+  letter-spacing: 10px;
+  font-size: 24px;
+  animation: opac 0.8s;
 }
+
+.m-span {
+  display: inline-flex;
+}
+
+.d-sm-block,
+.none {
+  display: none;
+}
+
+
 
 .nav-link {
   padding: 8px 16px;
